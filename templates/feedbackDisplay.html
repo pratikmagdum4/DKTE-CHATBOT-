@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Feedback Data</title>
+<style>
+  body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 20px;
+  }
+  h1 {
+    text-align: center;
+    color: #333;
+  }
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  table, th, td {
+    border: 1px solid #ddd;
+  }
+  th, td {
+    text-align: left;
+    padding: 8px;
+  }
+  th {
+    background-color: #4CAF50;
+    color: white;
+  }
+  tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  tr:hover {
+    background-color: #ddd;
+  }
+</style>
+</head>
+<body>
+<h1>Feedback Data</h1>
+<table>
+<thead>
+<tr>
+<th>S.No</th>
+<th>Name</th>
+<th>Phone</th>
+<th>Email</th>
+<th>Subject</th>
+<th>Message</th>
+<th>Date</th>
+</tr>
+</thead>
+<tbody id="feedback-table">
+<!-- Feedback data will be inserted here -->
+</tbody>
+</table>
+<script>
+// This script will fetch the feedback data from the server and display it in the table
+window.onload = function() {
+fetch('/get-feedback')
+.then(response => response.json())
+.then(data => {
+const table = document.getElementById('feedback-table');
+data.forEach(entry => {
+const row = table.insertRow();
+row.insertCell(0).textContent = entry.sno;
+row.insertCell(1).textContent = entry.name;
+row.insertCell(2).textContent = entry.phone;
+row.insertCell(3).textContent = entry.email;
+row.insertCell(4).textContent = entry.sub;
+row.insertCell(5).textContent = entry.msg;
+row.insertCell(6).textContent = new Date(entry.date).toLocaleString();
+});
+})
+.catch(error => console.error('Error:', error));
+};
+</script>
+</body>
+</html>

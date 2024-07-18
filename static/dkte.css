@@ -1,0 +1,254 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+   margin:0;
+   padding:0;
+   box-sizing:border-box;
+   font-family: "poppins",sans-serif;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    position: relative;
+    
+}
+
+nav{
+    position: sticky;
+    top: 0px;
+    right: 0px;
+    left: 0px;
+    height: 90px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    padding: 10px;
+    z-index: 99999;
+}
+
+nav .left img{
+    height: 70px;
+}
+
+nav .right ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    list-style: none;
+    padding-right: 20px;
+}
+nav .right ul li{
+    margin-right: 30px;
+    padding: 5px;
+}
+
+nav .right ul li a{
+    text-decoration: none;
+    color: #000;
+    font-size: 1em;
+    transition: 0.3s all ease-in-out;
+}
+
+a:hover{
+    border-bottom: 1px solid #000;
+    background-color: yellow;
+}
+
+.section-1{
+    position: relative;
+    height: 90vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('header.jpg');
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.section-1 h1{
+    font-size: 4em;
+    color: #ffffff;
+    z-index: 999;
+}
+
+.bg-black{
+    position: absolute;
+    padding: 30px;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0,0,0,0.56);
+}
+
+.section-2{
+    position: relative;
+    margin-top: 50px;
+    height: 140vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background-image: url('about.jpg');
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #fff;
+    font-weight: 500;
+}
+
+.section-2 .header{
+    text-align: center;
+    margin-bottom: 20px;
+    z-index:999;
+}
+.section-2 .content{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    padding: 10px;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+    z-index:999;
+}
+
+/* .section-2 .right{
+    
+    background-image: url('about.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+} */
+
+.section-2 .content #right-cont{
+    font-size: 1.6em;
+    font-weight: 800;
+    text-align: center;
+    z-index:999;
+   
+}
+
+/* .section-2 .content .left{
+    height: 100%;
+    width: 40%;
+    background-image: url('about.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+} */
+
+.btm-content{
+    font-size: 13px;
+    /* border: 1px solid red; */
+    padding: 40px;
+    z-index:999;
+}
+
+.btm-content p{
+    margin-bottom: 30px;
+}
+
+.section-3{
+    height: 100%;
+    width: 100%;
+    /* background-color: #21212128; */
+    padding: 10px;
+    /* background-image: url('Snapinsta.app_411174320_1410701462875221_5777025257190502628_n_1080.jpg');
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat; */
+}
+
+.section-3 .header{
+    text-align: center;
+    padding-bottom: 10px;
+    text-decoration: underline;
+}
+
+.admission-head{
+    background: #000;
+    color: #ffff;
+    padding: 15px;
+    margin-top: 20px;
+    font-size: 1rem;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+.section-3 li{
+    font-size: 0.9rem;
+    margin-left: 20px;
+    margin-bottom: 2px;
+    padding: 10px;
+}
+
+.gap{
+    margin-bottom: 10px;
+}
+
+.section-4{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-4 .header{
+    margin-bottom: 10px;
+    text-align: center;
+    text-decoration: underline;
+}
+
+.section-4 .input-box{
+    /* border: 1px solid red; */
+    display: flex;
+    flex-direction: column;
+    /* gap: 7px; */
+    margin-bottom: 10px;
+}
+
+.section-4 .input-box label{
+    font-size: 11px;
+    font-weight: 800;
+    letter-spacing: 1px;
+    margin-bottom: 4px;
+}
+
+input{
+    border: none;
+    border-bottom: 1px solid black;
+    outline: none;
+    background-color: #12121227;
+    padding: 8px 20px;
+    border-radius:3px ;
+}
+
+input[type="submit"]{
+    background-color: rgba(0, 217, 255, 0.832);
+}
+
+footer{
+    height: 30vh;
+    background-color: rgba(255, 251, 0, 0.832)  ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+footer li{
+    list-style: none;
+}
+
+footer a{
+    text-decoration: none;
+    color: black;
+}

@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <style>
+    body {
+      font-family: 'Arial', sans-serif;
+      background-color: #f4f4f4;
+      margin: 0;
+      padding: 0;
+    }
+
+    .login-container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      min-height: 100vh;
+    }
+
+    .login-form {
+      background: #ffffff;
+      border-radius: 8px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      padding: 20px;
+      width: 300px;
+      margin: 20px;
+    }
+
+    h1 {
+      color: #333;
+      font-size: 24px;
+      margin-bottom: 20px;
+    }
+
+    input[type="text"],
+    input[type="password"] {
+      border: 1px solid #ddd;
+      border-radius: 4px;
+      margin-bottom: 15px;
+      padding: 10px;
+      width: 92%;
+      box-sizing: border-box;
+    }
+
+    input[type="submit"] {
+      background: linear-gradient(45deg, #6dd5ed, #2193b0);
+      border: none;
+      border-radius: 4px;
+      color: white;
+      padding: 10px;
+      text-transform: uppercase;
+      transition: background 0.3s ease;
+      cursor: pointer;
+      width: 100%;
+    }
+
+    input[type="submit"]:hover {
+      background: linear-gradient(45deg, #2193b0, #6dd5ed);
+    }
+  </style>
+  <title>Admin Login</title>
+</head>
+<body>
+  <div class="login-container">
+    <h1>Admin Login</h1>
+    <div class="form-container">
+      <form class="login-form" action="/adminLogin" method="POST">
+        <input type="text" name="username" placeholder="Username" required />
+        <input type="password" name="password" placeholder="Password" required />
+        <input type="submit" name="submit" value="Login" />
+      </form>
+    </div>
+  </div>
+</body>
+</html>

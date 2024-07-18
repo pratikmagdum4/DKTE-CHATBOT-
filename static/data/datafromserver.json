@@ -1,0 +1,2403 @@
+{
+    "intents": [
+        {
+            "tag": "greeting",
+            "patterns": [
+                "Hi",
+                "Hello",
+                "Hey",
+                "Good day",
+                "Good morning",
+                "Good evening",
+                "Good afternoon",
+                "How are you?"
+            ],
+            "responses": [
+                "Hello!",
+                "Good to see you!",
+                "Hi there",
+                " how can I help?"
+            ],
+            "context_set": null,
+            "id": 1
+        },
+        {
+            "tag": "farewell",
+            "patterns": [
+                "Goodbye",
+                "Bye",
+                "See you later",
+                "Talk to you later"
+            ],
+            "responses": [
+                "Sad to see you go :(",
+                "Goodbye!",
+                "Come back soon!"
+            ],
+            "context_set": null,
+            "id": 2
+        },
+        {
+            "tag": "creator",
+            "patterns": [
+                "Who created you?",
+                "Who is your developer?",
+                "Who made you?"
+            ],
+            "responses": [
+                "I was created by Pratik Magdum",
+                " Vaishnavi Patil and Utsav Patil."
+            ],
+            "context_set": null,
+            "id": 3
+        },
+        {
+            "tag": "hours",
+            "patterns": [
+                "What are the college timings?",
+                "When is the college open?",
+                "What are your hours of operation?"
+            ],
+            "responses": [
+                "The college is open from 9:40 am to 4:30 pm",
+                " Monday to Friday."
+            ],
+            "context_set": null,
+            "id": 4
+        },
+        {
+            "tag": "courses",
+            "patterns": [
+                "What courses are offered in the college?",
+                "Can you tell me about the available courses?",
+                "What are the branches in the college?"
+            ],
+            "responses": [
+                "The DKTE College offers courses in Information Technology",
+                " Computer Engineering",
+                " Mechanical Engineering",
+                " Chemical Engineering",
+                " and Civil Engineering. For more information follow the link <a target=\"_blank\" href=\"https://collegedunia.com/college/13293-dkte-societys-textile-and-engineering-institute-dkte-kolhapur/courses-fees\" style=\"color: white;\">here</a>"
+            ],
+            "context_set": null,
+            "id": 5
+        },
+        {
+            "tag": "dkte_fees",
+            "patterns": [
+                "How much is the tuition fee?",
+                "What are the fees for engineering courses at DKTE?",
+                "Can you provide information about DKTE College fees?"
+            ],
+            "responses": [
+                "For detailed information about DKTE College fees",
+                " please visit our college website.<a target=\"_blank\" href=\"https://www.dkte.ac.in/\" style=\"color: white;\">here</a> ",
+                "DKTE College offers competitive tuition fees for its engineering coursesPlease visit the website <a target=\"_blank\" href=\"https://collegedunia.com/college/13293-dkte-societys-textile-and-engineering-institute-dkte-kolhapur/courses-fees\" style=\"color: white;\">here</a> .",
+                "The fees for engineering courses at DKTE College vary depending on the program and other factors.please refer the website <a target=\"_blank\" href=\"https://www.dkte.ac.in/admissions/ug-admission/fee-structure/2-uncategorised/114-parents\" style=\"color: white;\">here</a> "
+            ],
+            "context_set": null,
+            "id": 6
+        },
+        {
+            "tag": "location",
+            "patterns": [
+                "Where is dkte ",
+                "Where is the college located?",
+                "What is the college address?",
+                "How can I reach the college?"
+            ],
+            "responses": [
+                "The college is located at Ichalkaranji-416 115",
+                " Dist: Kolhapur (Maharashtra)",
+                " India. You can find the location on Google Maps.",
+                "D.K.T.E. Society's Textile & Engineering Institute",
+                " Rajwada",
+                " P.O.Box No. 130",
+                " Ichalkaranji-416 115",
+                " Dist: Kolhapur (Maharashtra)",
+                " India."
+            ],
+            "context_set": null,
+            "id": 7
+        },
+        {
+            "tag": "hostel",
+            "patterns": [
+                "Does the college provide hostel facilities?",
+                "Where is the hostel located?",
+                "What are the hostel fees?"
+            ],
+            "responses": [
+                " Institute has boys and in-campus girls hostel with adequate capacity. These hostels are located at the heart of the city. For detailed information about the hostel",
+                " please visit the website <a target=\"_blank\" href=\"https://www.dkte.ac.in/life-dkte/hostel\" style=\"color: white;\">here</a> ."
+            ],
+            "context_set": null,
+            "id": 8
+        },
+        {
+            "tag": "events",
+            "patterns": [
+                "what are coding events",
+                "What events are organized in the college?",
+                "Are there any upcoming events?",
+                "Tell me about the college events."
+            ],
+            "responses": [
+                "For information about the events",
+                " please visit our college website. you can also see the organized events on the website <a target=\"_blank\" href=\"https://www.dkte.ac.in/under-graduate/textile-department/b-tech-fashion-technology/b-tech-fashion-student-activity\" style=\"color: white;\">here</a> "
+            ],
+            "context_set": null,
+            "id": 9
+        },
+        {
+            "tag": "library",
+            "patterns": [
+                "Does the college have a library?",
+                "Where is the library located?",
+                "What are the library timings?"
+            ],
+            "responses": [
+                "Yes",
+                " the college has a library. The library is located inside campus. The timings are Monday to Saturday from 9:15 am to 7:00 pm",
+                " Sunday from 9:15 am to 5:30 pm",
+                " and during exam periods from 9:15 am to 10:00 pm. For more information",
+                " please visit the website:<a target=\"_blank\" href=\"https://www.dkte.ac.in/life-dkte/library\" style=\"color: white;\">here</a> "
+            ],
+            "context_set": null,
+            "id": 10
+        },
+        {
+            "tag": "facilities",
+            "patterns": [
+                "What facilities are available in the college?",
+                "Tell me about the college facilities.",
+                "Do you have a sports complex?"
+            ],
+            "responses": [
+                "The college provides various facilities including a sports complex",
+                " labs",
+                " cafeteria",
+                " Smart classrooms",
+                " Auditorium",
+                " Transport facility",
+                "Banks/ATM/ Post Office/ Market/ Food facility ",
+                " Yoga and meditation",
+                " and a library. for more information about the facilities please follow the link <a target=\"_blank\" href=\"https://www.dkte.ac.in/life-dkte/facilities\" style=\"color: white;\"> here</a>"
+            ],
+            "context_set": null,
+            "id": 11
+        },
+        {
+            "tag": "placement",
+            "patterns": [
+                "How are the placements in the college?",
+                "Tell me about the college placements.",
+                "What is the placement record?"
+            ],
+            "responses": [
+                "The DKTE college has a good placement record. Many reputed companies visit our campus for recruitment. for more information about DKTE college please visit the website <a target=\"_blank\" href=\"https://www.dkte.ac.in/placement\" style=\"color: white;\"> here</a>"
+            ],
+            "context_set": null,
+            "id": 12
+        },
+        {
+            "tag": "dkte_college_choice",
+            "patterns": [
+                "Why did you choose DKTE College?",
+                "What influenced your decision to attend DKTE College?",
+                "Can you explain why you selected DKTE College for your studies?"
+            ],
+            "responses": [
+                "I chose DKTE College because of its renowned faculty",
+                " state-of-the-art facilities",
+                " and excellent track record in academics and placements.",
+                "The reputation of DKTE College for providing quality education",
+                " combined with its vibrant campus life",
+                " made it my top choice.",
+                "DKTE College stood out to me for its strong emphasis on practical learning",
+                " innovative research",
+                " and supportive learning environment."
+            ],
+            "context_set": null,
+            "id": 13
+        },
+        {
+            "tag": "happiness",
+            "patterns": [
+                "Are you happy here?",
+                "Do you enjoy being at this college?"
+            ],
+            "responses": [
+                "As an AI",
+                " I don't have emotions",
+                " but I'm here to assist and provide information about the DKTE college."
+            ],
+            "context_set": null,
+            "id": 14
+        },
+        {
+            "tag": "dkte_strengths",
+            "patterns": [
+                "What are the strengths of DKTE College?",
+                "Can you tell me about the unique qualities of DKTE College?"
+            ],
+            "responses": [
+                "DKTE College stands out for its commitment to academic excellence",
+                " state-of-the-art infrastructure",
+                " and industry-relevant curriculum. The college also prides itself on its strong industry connections and robust placement support."
+            ],
+            "context_set": null,
+            "id": 15
+        },
+        {
+            "tag": "complaints",
+            "patterns": [
+                "What's your #1 complaint about your DKTE college?",
+                "What do you think needs improvement in your college?"
+            ],
+            "responses": [
+                "While my purpose is to provide information",
+                " some students may have different opinions. It's always good to provide feedback for continuous improvement."
+            ],
+            "context_set": null,
+            "id": 16
+        },
+        {
+            "tag": "dkte_improvements",
+            "patterns": [
+                "What areas do you think DKTE College can work on to enhance its quality?",
+                "Are there any specific aspects of DKTE College that you believe could be improved?",
+                "How can DKTE College further enhance its offerings and services?"
+            ],
+            "responses": [
+                "While DKTE College excels in many areas",
+                " there are always opportunities for improvement. Some potential areas of focus could include upgrading campus facilities",
+                " enhancing student support programs",
+                " and promoting greater industry-academic collaboration.",
+                "Continuous improvement is a key aspect of DKTE College's ethos. Efforts are underway to enhance infrastructure",
+                " modernize teaching methodologies",
+                " and expand research opportunities for students and faculty.",
+                "DKTE College remains committed to ongoing improvement initiatives aimed at providing an enriching educational experience. Plans are in place to upgrade laboratory facilities",
+                " introduce new courses",
+                " and strengthen ties with leading industry players."
+            ],
+            "context_set": null,
+            "id": 17
+        },
+        {
+            "tag": "accessibility",
+            "patterns": [
+                "What transportation options are available to reach DKTE College?",
+                "Can you provide information on the accessibility features at DKTE College?",
+                "How convenient is the commute to DKTE College for students?"
+            ],
+            "responses": [
+                "DKTE College is conveniently located and easily accessible via various modes of transportation. Students can reach the campus by bus",
+                " train",
+                " or other public transportation options.",
+                "Accessibility is a priority at DKTE College",
+                " and efforts are made to ensure that the campus is easily reachable for all students. The college is situated in a central location with good connectivity.",
+                "Students have multiple transportation options for commuting to DKTE College",
+                " including buses",
+                " trains",
+                " and private vehicles. The college also provides shuttle services for students living in nearby areas."
+            ],
+            "context_set": null,
+            "id": 18
+        },
+        {
+            "tag": "enrollment",
+            "patterns": [
+                "Can you provide statistics on the student enrollment at DKTE College?",
+                "What is the current student enrollment count at DKTE College?",
+                "Are there any recent changes in the enrollment numbers at DKTE College?"
+            ],
+            "responses": [
+                "DKTE College has a diverse student population",
+                " and enrollment numbers may vary each academic year. For the latest enrollment statistics",
+                " we recommend visiting our college website or contacting the college administration.",
+                "As an educational institution",
+                " DKTE College welcomes students from various backgrounds and regions. The enrollment figures may fluctuate based on admission cycles and program offerings. For specific enrollment data",
+                " please refer to our official website or reach out to the college authorities.",
+                "Enrollment at DKTE College reflects the growing demand for quality education and diverse learning opportunities. To get detailed information on student enrollment",
+                " including demographics and program-wise distribution",
+                " please visit our college website or get in touch with our admissions office."
+            ],
+            "context_set": null,
+            "id": 19
+        },
+        {
+            "tag": "online_courses",
+            "patterns": [
+                "Does the college offer online courses?",
+                "Can I take courses online?",
+                "Tell me about online learning options."
+            ],
+            "responses": [
+                "Yes",
+                " the college offers online courses. You can explore online learning options through our e-learning platform. Check the college website for more details."
+            ],
+            "context_set": null,
+            "id": 20
+        },
+        {
+            "tag": "dkte_sports",
+            "patterns": [
+                "What sports are available at DKTE College?",
+                "Can you provide information about the sports facilities?",
+                "Are there any upcoming sports events or tournaments at DKTE College?"
+            ],
+            "responses": [
+                "DKTE College offers a range of sports facilities",
+                " including indoor and outdoor spaces for activities such as cricket",
+                " football",
+                " basketball",
+                " volleyball",
+                " table tennis",
+                " and more. Students are encouraged to participate in sports and maintain a healthy lifestyle. for more information about sports please follow the link <a target=\"_blank\" href=\"https://www.dkte.ac.in/life-dkte/sports\" style=\"color: white;\"> here</a>",
+                "The sports infrastructure at DKTE College is designed to promote physical fitness and recreational activities. We have well-maintained grounds",
+                " courts",
+                " and equipment to support various sports interests. Students can access these facilities for both leisure and competitive purposes.",
+                "Stay updated with the latest sports events and tournaments happening at DKTE College by checking our college notice boards",
+                " social media channels",
+                " or contacting the sports department directly. We encourage students to actively engage in sports and showcase their talents on campus."
+            ],
+            "context_set": null,
+            "id": 21
+        },
+        {
+            "tag": "online_resources",
+            "patterns": [
+                "What online resources are available for students?",
+                "Tell me about the digital resources provided by the college.",
+                "Are there online libraries or databases?"
+            ],
+            "responses": [
+                "The college provides access to various online resources",
+                " including digital libraries",
+                " databases",
+                " and educational platforms. Students can access these resources through the college's online portal."
+            ],
+            "context_set": null,
+            "id": 22
+        },
+        {
+            "tag": "dkte_safety",
+            "patterns": [
+                "What precautions are taken to ensure student safety on campus?",
+                "Can you provide details about the security arrangements at DKTE College?",
+                "Are there any emergency contact numbers for students to reach out in case of need?"
+            ],
+            "responses": [
+                "DKTE College is committed to providing a safe and secure environment for all students. Our campus is equipped with CCTV cameras",
+                " well-lit pathways",
+                " and trained security personnel who patrol the premises regularly. Additionally",
+                " we conduct safety drills and awareness programs to educate students about emergency procedures.",
+                "We have implemented various safety measures at DKTE College",
+                " including access control systems",
+                " fire safety equipment",
+                " and first aid facilities. Our security team is vigilant and responsive to any security concerns or incidents reported on campus.",
+                "Students can find emergency contact numbers displayed prominently across campus and in their student handbooks. We encourage students to save these numbers in their phones and reach out immediately in case of emergencies or safety-related issues."
+            ],
+            "context_set": null,
+            "id": 23
+        },
+        {
+            "tag": "greeting",
+            "patterns": [
+                "Hi",
+                "How are you",
+                "Is anyone there?",
+                "Hello",
+                "Good day",
+                "Whats up",
+                "how are ya",
+                "heyy",
+                "whatsup",
+                "Good Morning"
+            ],
+            "responses": [
+                "Hello!",
+                "Good to see you again!",
+                "Hi there",
+                " how can I help?"
+            ],
+            "context_set": null,
+            "id": 24
+        },
+        {
+            "tag": "goodbye",
+            "patterns": [
+                "cya",
+                "see you",
+                "bye bye",
+                "See you later",
+                "Goodbye",
+                "I am Leaving",
+                "Bye",
+                "Have a Good day",
+                "talk to you later",
+                "tyyl",
+                "i got to go",
+                "gtg"
+            ],
+            "responses": [
+                "Sad to see you go :(",
+                "Talk to you later",
+                "Goodbye!",
+                "Come back soon"
+            ],
+            "context_set": null,
+            "id": 25
+        },
+        {
+            "tag": "creator",
+            "patterns": [
+                "what is the name of your developers",
+                "what is the name of your creators",
+                "what is the name of the developers",
+                "what is the name of the creators",
+                "who created you",
+                "your developers",
+                "your creators",
+                "who are your developers",
+                "developers",
+                "you are made by",
+                "you are made by whom",
+                "who created you",
+                "who create you",
+                "creators",
+                "who made you",
+                "who designed you"
+            ],
+            "responses": [
+                "I was developed by Pratik",
+                " Vaishnavi and Utsav",
+                ""
+            ],
+            "context_set": null,
+            "id": 26
+        },
+        {
+            "tag": "name",
+            "patterns": [
+                "name",
+                "your name",
+                "do you have a name",
+                "what are you called",
+                "what is your name",
+                "what should I call you",
+                "whats your name?",
+                "what are you",
+                "who are you",
+                "who is this",
+                "what am i chatting to",
+                "who am i taking to",
+                "what are you"
+            ],
+            "responses": [
+                "You can call me DKTE_Bot.",
+                "I'm DKTE_Bot",
+                "I'm DKTE_Bot Dkte's Chatbot."
+            ],
+            "context_set": null,
+            "id": 27
+        },
+        {
+            "tag": "fees",
+            "patterns": [
+                "information about fee",
+                "information on fee",
+                "tell me the fee",
+                "college fee",
+                "fee per semester",
+                "what is the fee of each semester",
+                "what is the fees of each year",
+                "what is fee",
+                "what is the fees",
+                "how much is the fees",
+                "fees for first year",
+                "fees",
+                "about the fees",
+                "tell me something about the fees"
+            ],
+            "responses": [
+                "For Fee detail please visit <a target=\"_blank\" href=\"https://www.dkte.ac.in/admissions/ug-admission/fee-structure\" style=\"color: white;\">here</a>"
+            ],
+            "context_set": null,
+            "id": 28
+        },
+        {
+            "tag": "document",
+            "patterns": [
+                "document to bring",
+                "documents needed for admission",
+                "documents needed at the time of admission",
+                "documents needed during admission",
+                "documents required for admission",
+                "documents required at the time of admission",
+                "documents required during admission",
+                "What document are required for admission",
+                "Which document to bring for admission",
+                "documents",
+                "what documents do i need",
+                "what documents do I need for admission",
+                "documents needed"
+            ],
+            "responses": [
+                "To know more about document required visit <a target=\"_blank\" href=\"https://www.dkte.ac.in/admissions/ug-admission/documents-required\" style=\"color: white;\">here</a>"
+            ],
+            "context_set": null,
+            "id": 29
+        },
+        {
+            "tag": "document",
+            "patterns": [
+                "documents to bring",
+                "documents needed for admission",
+                "documents needed at the time of admission",
+                "documents needed during admission",
+                "documents required for admission",
+                "documents required at the time of admission",
+                "documents required during admission",
+                "What documents are required for admission",
+                "Which documents to bring for admission",
+                "documents",
+                "what documents do I need",
+                "what documents do I need for admission",
+                "documents needed"
+            ],
+            "responses": [
+                "Candidates are required to bring the following documents in original along with one set of photocopies on the day of counseling:\n1. Mark sheet of class 10th and class 12th\n2. Passing out certificate of class 10th and class 12th\n3. MHT-CET or JEE score card\n4. School Leaving Certificate\n5. Age",
+                " Nationality & Domicile certificate\n6. Caste Certificate and Caste Validity Certificate (for reserved category candidates)\n7. Non Creamy Layer Certificate valid up to 31st March (Next Year) (Except SC & ST candidates)\n8. Passport size photographs"
+            ],
+            "context_set": null,
+            "id": 30
+        },
+        {
+            "tag": "infrastructure",
+            "patterns": [
+                "how is college infrastructure",
+                "infrastructure",
+                "college infrastructure"
+            ],
+            "responses": [
+                "DKTE College boasts excellent infrastructure. The campus is well-maintained and clean. We have state-of-the-art IT labs equipped with high-speed internet connections."
+            ],
+            "context_set": null,
+            "id": 31
+        },
+        {
+            "tag": "canteen",
+            "patterns": [
+                "food facilities",
+                "canteen facilities",
+                "canteen facility",
+                "is there any canteen",
+                "Is there a cafetaria in college",
+                "Does college have canteen",
+                "Where is canteen",
+                "where is cafetaria",
+                "canteen",
+                "Cafetaria"
+            ],
+            "responses": [
+                "DKTE has canteen with variety of food available"
+            ],
+            "context_set": null,
+            "id": 32
+        },
+        {
+            "tag": "food_and_cafeteria_info",
+            "patterns": [
+                "food options",
+                "food facilities",
+                "What food is available on campus?",
+                "Tell me about the food facilities at DKTE.",
+                "What can I eat in the cafeteria?"
+            ],
+            "responses": [
+                "DKTE campus features a food court offering breakfast",
+                " lunch",
+                " and dinner at subsidized rates. Additionally",
+                " there are cafeterias available serving tea",
+                " coffee",
+                " and various snacks."
+            ],
+            "context_set": null,
+            "id": 33
+        },
+        {
+            "tag": "menu",
+            "patterns": [
+                "food menu",
+                "food in canteen",
+                "What's there on the menu?",
+                "What is available in the college canteen?",
+                "What foods can we get in the college canteen?"
+            ],
+            "responses": [
+                "The college canteen offers a variety of options including Bread Poha",
+                " Idli",
+                " Kachori",
+                " Samosa",
+                " Dal Rice",
+                " and many more."
+            ],
+            "context_set": null,
+            "id": 34
+        },
+        {
+            "tag": "faculty_info",
+            "patterns": [
+                "faculty information",
+                "faculty list",
+                "who are the faculty members",
+                "teaching staff details"
+            ],
+            "responses": [
+                "Here are the faculty members of DKTE College:\n\n1. Prof. (Dr.) Mrs. L. S. Admuthe - Director\n2. Prof. (Dr.) U. J. Patil - Dy. Director & HOD-Textiles\n3. Prof. C.A. Patil - Head",
+                " Centre of Excellence\n4. Prof. (Dr.) Mrs. S. U. Awade - Dean (Finance/Infrastructure)\n5. Prof. (Dr.) S. K. Shirgave - Dean Academics & HOD Computer Science & Engineering (AI & ML)\n6. Prof. (Dr.) S.B. Vhanbatte - Dean (R & D",
+                " Project Consultancy)\n7. Adv. R. R. Shah - Dean Administration & Student Affairs\n8. Prof. S. G. Kanitkar - Dean (Co-Curricular/Extra Curricular /Extension Activities)\n9. Prof. (Dr.) V. D. SHINDE - Controller of Examination\n10. Prof. (Dr.) V. R. Naik - HOD Mechanical Engineering\n11. Prof. (Dr.) S. A. Patil - HOD - Electronics & Telecommunication Engineering\n12. Prof. (Dr.) D. V. Kodavade - Dean",
+                " (Project & Consultancy) & HOD Computer Science & Engineering\n13. Prof. (Dr.) R.N. Patil - HOD Electrical Engineering\n14. Prof. (Dr.) A. K. Ghatage - HOD General Engineering\n15. Mr. A. L. Mulla - I/C HOD Civil Engineering\n16. Mr. P. S. Jadhav - I/C Coordinator MBA\n17. Prof. R K Valsang - I/C Diploma\n18. Prof. S.B. Akiwate - Training & Placement Officer (Textile)\n19. Prof. G. S. Joshi - Training & Placement Officer (Engineering)"
+            ],
+            "context_set": null,
+            "id": 35
+        },
+        {
+            "tag": "civilhod",
+            "patterns": [
+                "Who is Civil HOD",
+                "Where is Civil HOD",
+                "civil hod",
+                "name of civil hod"
+            ],
+            "responses": [
+                "Dr. Athar Hussain is Civil HOD who is available on the Ground floor."
+            ],
+            "context_set": null,
+            "id": 36
+        },
+        {
+            "tag": "mechhod",
+            "patterns": [
+                "Who is Mechanical HOD",
+                "Where is Mechanical HOD",
+                "mechanical hod",
+                "name of mechanical hod"
+            ],
+            "responses": [
+                "Dr. Manju Nath K. is Mechanical HOD who is available on the Ground floor."
+            ],
+            "context_set": null,
+            "id": 37
+        },
+        {
+            "tag": "csehod",
+            "patterns": [
+                "Who is CSE department HOD",
+                "Who  is  HOD of CSE Department",
+                "CSE hod",
+                "name of CSE department hod"
+            ],
+            "responses": [
+                "Dr. DATTATRAYA VISHNU KODAVADE. K. is HOD of CSE Department."
+            ],
+            "context_set": null,
+            "id": 38
+        },
+        {
+            "tag": "sem",
+            "patterns": [
+                "exam dates",
+                "exam schedule",
+                "When is semester exam",
+                "Semester exam timetable",
+                "sem",
+                "semester",
+                "exam",
+                "when is exam",
+                "exam timetable",
+                "exam dates",
+                "when is semester"
+            ],
+            "responses": [
+                "Here is the Academic Calendar  <a target=\"_blank\" href=\"https://www.dkte.ac.in/exam-section/exam-schedule\" style=\"color: white;\">here</a>"
+            ],
+            "context_set": null,
+            "id": 39
+        },
+        {
+            "tag": "college intake",
+            "patterns": [
+                "max number of students",
+                "number of seats per branch",
+                "number of seats in each branch",
+                "maximum number of seats",
+                "maximum students intake",
+                "What is college intake",
+                "how many student are taken in each branch",
+                "seat allotment",
+                "seats"
+            ],
+            "responses": [
+                "DKTE College in Ichalkaranji offers a range of diploma",
+                " undergraduate",
+                " and postgraduate programs:\n\nDiploma Programs Offered:\n1. Diploma in Textile Manufactures (Intake: 60)\n2. Diploma in Textile Technology (Intake: 30)\n3. Diploma in Fashion and Clothing Technology (Intake: 30)\n\nUndergraduate Programs Offered:\n1. B.Tech. Textile Technology (Intake: 60)\n2. B.Tech. Man-made Textile Technology (Intake: 30)\n3. B.Tech. Textile Plant Engineering (Intake: 30)\n4. B.Tech. Textile Chemistry (Intake: 60)\n5. B.Tech. Fashion Technology (Intake: 30)\n6. B.Tech. Mechanical Engineering (Intake: 60)\n7. B.Tech. Computer Science and Engineering (Intake: 120)\n8. B.Tech. Electronics and Telecommunication Engineering (Intake: 120)\n9. B.Tech. Civil Engineering (Intake: 60)\n10. B.Tech. Electrical Engineering (Intake: 60)\n11. B.Tech. Computer Science and Engineering (Artificial Intelligence) (Intake: 120)\n12. B.Tech. AI & Data Science (Intake: 60)\n\nPostgraduate Programs Offered:\n1. M.Tech. Textile Engineering (Intake: 12)\n2. M.Tech. Electronics and Telecommunication Engineering (Intake: 12)\n3. M.Tech. Mechanical Engineering (Intake: 12)\n4. M.Tech. Computer Science and Engineering (Intake: 12)\n5. M.Tech. Defence Technology (Intake: 12)\n\nManagement Studies:\n1. M.B.A. (Master in Business Administration) (Intake: 120)"
+            ],
+            "context_set": null,
+            "id": 40
+        },
+        {
+            "tag": "uniform",
+            "patterns": [
+                "college dress code",
+                "college dresscode",
+                "what is the uniform",
+                "can we wear casuals",
+                "Does college have an uniform",
+                "Is there any uniform",
+                "uniform",
+                "what about uniform",
+                "do we have to wear uniform"
+            ],
+            "responses": [
+                "DKTE does not have uniform"
+            ],
+            "context_set": null,
+            "id": 41
+        },
+        {
+            "tag": "random",
+            "patterns": [
+                "I love you",
+                "Will you marry me",
+                "Do you love me"
+            ],
+            "responses": [
+                "I am not program for this please ask appropriate query"
+            ],
+            "context_set": null,
+            "id": 42
+        },
+        {
+            "tag": "swear",
+            "patterns": [
+                "fuck",
+                "bitch",
+                "shut up",
+                "hell",
+                "stupid",
+                "idiot",
+                "dumb ass",
+                "asshole",
+                "fucker"
+            ],
+            "responses": [
+                "please use appropriate language",
+                "Maintaining decency would be appreciated"
+            ],
+            "context_set": null,
+            "id": 43
+        },
+        {
+            "tag": "salutaion",
+            "patterns": [
+                "okk",
+                "okie",
+                "nice work",
+                "well done",
+                "good job",
+                "thanks for the help",
+                "Thank You",
+                "its ok",
+                "Thanks",
+                "k",
+                "ok",
+                "okay"
+            ],
+            "responses": [
+                "I am glad I helped you",
+                "welcome",
+                " anything else i can assist you with?"
+            ],
+            "context_set": null,
+            "id": 44
+        },
+        {
+            "tag": "task",
+            "patterns": [
+                "what can you do",
+                "what are the thing you can do",
+                "things you can do",
+                "what can u do for me",
+                "how u can help me",
+                "why i should use you"
+            ],
+            "responses": [
+                "I can answer to low-intermediate questions regarding college",
+                "You can ask me questions regarding college",
+                " and i will try to answer them"
+            ],
+            "context_set": null,
+            "id": 45
+        },
+        {
+            "tag": "ragging",
+            "patterns": [
+                "ragging",
+                "is ragging practice active in college",
+                "does college have any antiragging facility",
+                "is there any ragging cases",
+                "is ragging done here",
+                "ragging juniors",
+                "ragging history",
+                "ragging incidents"
+            ],
+            "responses": [
+                "We are Proud to tell you that our college provides ragging free environment",
+                " and we have strict rules against ragging"
+            ],
+            "context_set": null,
+            "id": 46
+        },
+        {
+            "tag": "about_college",
+            "patterns": [
+                "how is dkte college",
+                "what is dkte",
+                "what is dkte college",
+                "Tell me about DKTE College",
+                "What is DKTE College known for?",
+                "What can I study at DKTE?"
+            ],
+            "responses": [
+                "DKTE's Textile & Engineering Institute (DKTE) is an autonomous engineering college established in 1982",
+                " located in Ichalkaranji",
+                " Maharashtra",
+                " India. It's known for its strong focus on textiles and engineering education",
+                " offering various undergraduate and postgraduate programs.",
+                "DKTE is recognized for its excellent placements in leading textile and engineering companies",
+                " well-qualified faculty",
+                " and well-equipped infrastructure facilities."
+            ],
+            "context_set": null,
+            "id": 47
+        },
+        {
+            "tag": "dkte_life",
+            "patterns": [
+                "how is dkte",
+                "how is life at dkte",
+                "what is life at dkte",
+                "what is dkte college",
+                "what is life at dkte college"
+            ],
+            "responses": [
+                "Student life at DKTE is dynamic and fulfilling",
+                " with opportunities for academic pursuits",
+                " extracurricular activities",
+                " and social interactions."
+            ],
+            "context_set": null,
+            "id": 48
+        },
+        {
+            "tag": "health_and_wellness",
+            "patterns": [
+                "Is there a health center on campus?",
+                "What health and wellness services does the college provide?",
+                "How can I schedule an appointment with the campus health services?"
+            ],
+            "responses": [
+                "DKTE College has a health center that provides medical services to students. You can schedule appointments for consultations",
+                " vaccinations",
+                " and other health-related concerns."
+            ],
+            "context_set": null,
+            "id": 49
+        },
+        {
+            "tag": "technology_resources",
+            "patterns": [
+                "Tell me about the technology resources available to students.",
+                "Are there computer labs on campus?",
+                "How can I access Wi-Fi in the college?"
+            ],
+            "responses": [
+                "Students have access to computer labs",
+                " Wi-Fi facilities",
+                " and other technology resources on campus. Check the technology section for information on connectivity",
+                " computer lab locations",
+                " and guidelines."
+            ],
+            "context_set": null,
+            "id": 50
+        },
+        {
+            "tag": "financial_aid",
+            "patterns": [
+                "What financial aid options are available for students?",
+                "Can you provide information on scholarships offered by the college?",
+                "How can I apply for financial assistance?"
+            ],
+            "responses": [
+                "DKTE College provides various financial aid options",
+                " including scholarships",
+                " grants",
+                " and student loans. Visit the financial aid section on our website for details on eligibility and application procedures."
+            ],
+            "context_set": null,
+            "id": 51
+        },
+        {
+            "tag": "environmental_initiatives",
+            "patterns": [
+                "What environmental initiatives does the college undertake?",
+                "Is there a focus on sustainability in campus operations?",
+                "How can students participate in eco-friendly activities?"
+            ],
+            "responses": [
+                "DKTE College is committed to sustainability. Learn about our environmental initiatives",
+                " recycling programs",
+                " and opportunities for students to engage in eco-friendly practices through campus events and organizations."
+            ],
+            "context_set": null,
+            "id": 52
+        },
+        {
+            "tag": "student_feedback",
+            "patterns": [
+                "How can I provide feedback about my college experience?",
+                "Is there a system for submitting suggestions or concerns?",
+                "Are there surveys for students to share their opinions?"
+            ],
+            "responses": [
+                "Your feedback is valuable. Share your thoughts through feedback forms",
+                " surveys",
+                " or by contacting the student feedback department. We appreciate your input for continuous improvement."
+            ],
+            "context_set": null,
+            "id": 53
+        },
+        {
+            "tag": "international_students_support",
+            "patterns": [
+                "How does the college support international students?",
+                "Are there orientation programs for international students?",
+                "What resources are available for international student success?"
+            ],
+            "responses": [
+                "DKTE College values its international students. Explore support services",
+                " orientation programs",
+                " and resources tailored to enhance the experience of our diverse international student community."
+            ],
+            "context_set": null,
+            "id": 54
+        },
+        {
+            "tag": "establishment_year",
+            "patterns": [
+                "When was DKTE established?",
+                "Tell me about the establishment year of DKTE.",
+                "What is the founding year of DKTE?"
+            ],
+            "responses": [
+                "DKTE Society's Textile and Engineering Institute (DKTE) was established in the year 1854."
+            ],
+            "context_set": null,
+            "id": 55
+        },
+        {
+            "tag": "student_care_facility",
+            "patterns": [
+                "Is there a Student's Care facility in hostels at DKTE?",
+                "Tell me about the Student's Care facility in DKTE hostels.",
+                "Are there facilities for medical emergencies in DKTE hostels?"
+            ],
+            "responses": [
+                "Yes",
+                " DKTE hostels have facilities for medical emergencies. Resident rectors and wardens look after the girl students staying in the hostels."
+            ],
+            "context_set": null,
+            "id": 56
+        },
+        {
+            "tag": "college_info",
+            "patterns": [
+                "Where can I find more information about DKTE college?",
+                "For more information on DKTE",
+                "How can I learn more about DKTE?"
+            ],
+            "responses": [
+                "For more information on DKTE",
+                ". Click on the provided link <a target=\"_blank\" href=\"https://www.dkte.ac.in\" style=\"color: white;\">here</a>."
+            ],
+            "context_set": null,
+            "id": 57
+        },
+        {
+            "tag": "hospital_facility",
+            "patterns": [
+                "Is there any facility of Hospital?",
+                "Does DKTE have a hospital?",
+                "Tell me about the hospital facility at DKTE."
+            ],
+            "responses": [
+                "Yes",
+                " DKTE has a hospital facility available for students."
+            ],
+            "context_set": null,
+            "id": 58
+        },
+        {
+            "tag": "dkte_full_form",
+            "patterns": [
+                "What is the full form of DKTE?",
+                "What does DKTE stand for?",
+                "Tell me the meaning of DKTE."
+            ],
+            "responses": [
+                "DKTE stands for DKTE Society's Textile and Engineering Institute."
+            ],
+            "context_set": null,
+            "id": 59
+        },
+        {
+            "tag": "academic_programs",
+            "patterns": [
+                "How many programs are there?",
+                "Tell me about the academic programs at DKTE College.",
+                "List the programs offered at DKTE College."
+            ],
+            "responses": [
+                "DKTE College in Ichalkaranji offers a variety of academic programs across different fields:\n1. Textile Engineering\n2. Textile Technology\n3. Textile Chemistry\n4. Mechanical Engineering\n5. Electrical Engineering\n6. Electronics & Telecommunication Engineering\n7. Civil Engineering\n8. Computer Science & Engineering\n9. Information Technology\nAdditionally",
+                " the college may offer diploma and certificate courses in related disciplines."
+            ],
+            "context_set": null,
+            "id": 60
+        },
+        {
+            "tag": "dkte_undergraduate_seats",
+            "patterns": [
+                "How many seats are available in different departments at DKTE College?",
+                "Tell me about the seat distribution in DKTE College.",
+                "What is the total seat intake in DKTE College?"
+            ],
+            "responses": [
+                "DKTE College offers undergraduate programs with the following seat distribution:\n- B.Tech. Textile Technology: 60 seats\n- B.Tech. Man-made Textile Technology: 30 seats\n- B.Tech. Textile Plant Engineering: 30 seats\n- B.Tech. Textile Chemistry: 60 seats\n- B.Tech. Fashion Technology: 30 seats\n- B.Tech. Mechanical Engineering: 60 seats\n- B.Tech. Computer Science and Engineering: 120 seats\n- B.Tech. Electronics and Telecommunication Engineering: 120 seats\n- B.Tech. Civil Engineering: 60 seats\n- B.Tech. Electrical Engineering: 60 seats\n- B.Tech. Computer Science and Engineering (Artificial Intelligence): 120 seats\n- B.Tech. AI & Data Science: 60 seats\n\nIn total",
+                " DKTE College has an intake of 690 undergraduate seats across 12 programs."
+            ],
+            "context_set": null,
+            "id": 61
+        },
+        {
+            "tag": "dkte_programs",
+            "patterns": [
+                "Which programs are offered for engineering at DKTE College?",
+                "Tell me about the engineering programs available in DKTE College.",
+                "List the engineering programs offered in DKTE College."
+            ],
+            "responses": [
+                "DKTE College offers a variety of engineering programs",
+                " including:\n- B.Tech. Textile Technology\n- B.Tech. Man-made Textile Technology\n- B.Tech. Textile Plant Engineering\n- B.Tech. Textile Chemistry\n- B.Tech. Fashion Technology\n- B.Tech. Mechanical Engineering\n- B.Tech. Computer Science and Engineering\n- B.Tech. Electronics and Telecommunication Engineering\n- B.Tech. Civil Engineering\n- B.Tech. Electrical Engineering\n- B.Tech. Computer Science and Engineering (Artificial Intelligence)\n- B.Tech. AI & Data Science\n\nDKTE College also offers post-graduate programs:\n- M.Tech. Textile Engineering\n- M.Tech. Electronics and Telecommunication Engineering\n- M.Tech. Mechanical Engineering\n- M.Tech. Computer Science and Engineering\n- M.Tech. Defence Technology\n\nIn addition",
+                " DKTE College offers an MBA program in Management Studies and Doctorate (Ph.D.) programs in Textile Engineering",
+                " Computer Science and Engineering",
+                " Mechanical Engineering",
+                " Electronics",
+                " and Electronics and Telecommunication Engineering."
+            ],
+            "context_set": null,
+            "id": 62
+        },
+        {
+            "tag": "faculty_experience",
+            "patterns": [
+                "What is the average experience of faculty at DKTE College?",
+                "Tell me about the faculty experience at DKTE College.",
+                "How experienced are the faculty members at DKTE College?"
+            ],
+            "responses": [
+                "The faculty members at DKTE College have diverse and extensive experience in teaching",
+                " industry",
+                " and research domains. Almost all faculty members hold Ph.D. degrees and have completed Masters in their respective fields. On average",
+                " the faculty members have more than 15 years of academic experience",
+                " with many of them also possessing industry experience. The course curriculum is regularly updated based on industry feedback",
+                " ensuring students are well-prepared for the industry."
+            ],
+            "context_set": null,
+            "id": 63
+        },
+        {
+            "tag": "placement_companies",
+            "patterns": [
+                "Which companies come for placement at DKTE College?",
+                "Tell me about the companies that visit DKTE College for placements.",
+                "List the companies associated with DKTE College placements."
+            ],
+            "responses": [
+                "DKTE College boasts a remarkable 100% placement rate in my course for the last 30 years. The highest package offered in campus recruitment is INR 18 lacs per annum",
+                " whereas the average package is INR 3.5 lacs per annum. In campus recruitment",
+                " students get placed in companies like Trident",
+                " Vardhman Group",
+                " Arvind Limited",
+                " and Aditya Birla Grasim. Students also have opportunities to secure pre-placement offers (PPOs) from various companies for internships and placements in their 3rd year.",
+                "For the civil engineering department",
+                " although the 2023 batch had fewer placements as it was the first batch to pass out",
+                " the highest package offered was 5 LPA by Paranjpe Construction",
+                " and the lowest was 2.8 LPA. Despite fewer recruiting companies",
+                " top companies like Paranjpe Construction showed interest. Overall",
+                " only 21% of students from the department were placed.",
+                "In another branch",
+                " 100% of students secured placements with the highest package reaching 17 Lacs. The lowest package stood at 2.75 Lacs",
+                " while the average package was 4 Lacs. Top companies such as Epic",
+                " CGM",
+                " Aditya Birla",
+                " and DMart participated in the recruitment process. Additionally",
+                " all students are required to complete two compulsory internships after the 5th and 7th semesters.",
+                "The placement rate of DKTE College stands between 80-90%",
+                " with the highest package being 6 LPA",
+                " the lowest at 3 LPA",
+                " and the average package at 3.5 LPA. Notable companies such as Trident Group",
+                " Raymond",
+                " Sitaram's",
+                " Aditya Birla",
+                " and Shahi Export are among the top recruiters. All students secure internships in reputable companies",
+                " primarily in roles like Production Supervisors and Quality Assurance."
+            ],
+            "context_set": null,
+            "id": 64
+        },
+        {
+            "tag": "establishment_year",
+            "patterns": [
+                "When was DKTE College founded?",
+                "Can you tell me the year DKTE College was established?",
+                "What is the establishment year of DKTE College?",
+                "When did DKTE College start?"
+            ],
+            "responses": [
+                "DKTE College",
+                " also known as D.K.T.E. Society's Textile & Engineering Institute",
+                " was established in the year 1982. It has since been a leading institution in providing quality education in the field of textile and engineering."
+            ],
+            "context_set": null,
+            "id": 65
+        },
+        {
+            "tag": "college_placement_percentage",
+            "patterns": [
+                "What is the placement percentage at DKTE College?",
+                "Tell me about the percentage of students placed at DKTE College.",
+                "How many students get placed on average at DKTE College?",
+                "Can you provide information about the placement success rate at DKTE College?"
+            ],
+            "responses": [
+                "The placement percentage at DKTE College is approximately 85%.",
+                "On average",
+                " about 85% of students at DKTE College secure placements.",
+                "DKTE College boasts a high placement success rate of around 85%."
+            ],
+            "context_set": null,
+            "id": 66
+        },
+        {
+            "tag": "faculty_count",
+            "patterns": [
+                "How many faculty members are there in DKTE?",
+                "Tell me about the count of faculty at DKTE.",
+                "What is the total number of faculty members at DKTE?"
+            ],
+            "responses": [
+                "DKTE has a faculty strength of more than 150."
+            ],
+            "context_set": null,
+            "id": 67
+        },
+        {
+            "tag": "dkte_description",
+            "patterns": [
+                "What is DKTE?",
+                "Tell me about DKTE college.",
+                "Describe DKTE."
+            ],
+            "responses": [
+                "DKTE Society's Textile and Engineering Institute (DKTE) is one of the premier educational institutions. It offers 72 programs ranging from Undergraduate to Doctoral (PhD) under the tutelage of 9 Institutes",
+                " 6 Faculties",
+                " various Centers / Cells."
+            ],
+            "context_set": null,
+            "id": 68
+        },
+        {
+            "tag": "employee_student_strength",
+            "patterns": [
+                "What is the strength of Employees and Students at DKTE?",
+                "Tell me about the strength of Employees and Students at DKTE.",
+                "How many employees and students are there at DKTE?"
+            ],
+            "responses": [
+                "DKTE has an employee strength of 550+ and a student strength of more than 7",
+                "500."
+            ],
+            "context_set": null,
+            "id": 69
+        },
+        {
+            "tag": "festivals",
+            "patterns": [
+                "Is there any festival celebrated at DKTE College?",
+                "Tell me about the festivals celebrated at DKTE College.",
+                "Are there any festivals at DKTE College?",
+                "What festivals are celebrated at DKTE College?",
+                "Can you provide information about the cultural festivals at DKTE College?",
+                "I'm interested in knowing more about the festivals at DKTE College."
+            ],
+            "responses": [
+                "Yes",
+                " DKTE College celebrates various festivals like Republic Day",
+                " Independence Day",
+                " Gandhi Jayanti",
+                " Diwali",
+                " Holi",
+                " etc."
+            ],
+            "context_set": null,
+            "id": 70
+        },
+        {
+            "tag": "dkte_principal",
+            "patterns": [
+                "Who is the Principal of DKTE College?",
+                "Tell me about the Principal of DKTE College.",
+                "Who is the head of DKTE College?"
+            ],
+            "responses": [
+                "L. S. Admute is the Principal of DKTE College."
+            ],
+            "context_set": null,
+            "id": 71
+        },
+        {
+            "tag": "hostel_capacity",
+            "patterns": [
+                "What is the capacity of Hostels at DKTE?",
+                "Tell me about the hostel capacity at DKTE.",
+                "How many students can the hostels at DKTE accommodate?"
+            ],
+            "responses": [
+                "The hostels at DKTE have a housing capacity for 1",
+                "100 girls."
+            ],
+            "context_set": null,
+            "id": 72
+        },
+        {
+            "tag": "hostel_facilities",
+            "patterns": [
+                "What are the facilities in hostels at DKTE?",
+                "Tell me about the hostel facilities at DKTE.",
+                "List the amenities available in DKTE hostels."
+            ],
+            "responses": [
+                "The hostels at DKTE offer AC and Non-AC accommodation. They include facilities like a Gymnasium",
+                " Badminton and Volleyball Courts",
+                " Indoor sports",
+                " separate facilities for viewing TV and reading newspapers and magazines",
+                " and arrangements for the celebration of various days/festivals. Wholesome",
+                " nutritious food is available in the mess. Additionally",
+                " there is Internet and Wi-Fi facility with computers",
+                " housekeeping service",
+                " and security."
+            ],
+            "context_set": null,
+            "id": 73
+        },
+        {
+            "tag": "student_care_facility",
+            "patterns": [
+                "Is there a Student's Care facility in hostels at DKTE?",
+                "Tell me about the Student's Care facility in DKTE hostels.",
+                "Are there facilities for medical emergencies in DKTE hostels?"
+            ],
+            "responses": [
+                "Yes",
+                " DKTE hostels have facilities for medical emergencies. Resident rectors and wardens look after the girl students staying in the hostels."
+            ],
+            "context_set": null,
+            "id": 74
+        },
+        {
+            "tag": "transportation",
+            "patterns": [
+                "What are the bus pickup points for DKTE College students?",
+                "How can I avail the bus facility at DKTE College?",
+                "Can you provide the bus service details for DKTE College?"
+            ],
+            "responses": [
+                "DKTE College offers an organized bus service for students with specific pickup locations. For more detailed information on routes and timings",
+                " please refer to the official DKTE transportation schedule available at  <a target=\"_blank\" href=\"https://www.dkte.ac.in/admissions/ug-admission/documents-required\" style=\"color: white;\">here</a> or contact the institute directly."
+            ],
+            "context_set": null,
+            "id": 75
+        },
+        {
+            "tag": "college_address",
+            "patterns": [
+                "What is the address of DKTE College?",
+                "Tell me the location of DKTE College.",
+                "Where is DKTE located?"
+            ],
+            "responses": [
+                "DKTE College is located at D.K.T.E. Society's Textile & Engineering Institute",
+                " Rajwada",
+                " P.O.Box. No.130",
+                " Ichalkaranji-416 115",
+                " Dist: Kolhapur (Maharashtra)",
+                " India."
+            ],
+            "context_set": null,
+            "id": 76
+        },
+        {
+            "tag": "college_contact",
+            "patterns": [
+                "What is DKTE College's contact information?",
+                "Tell me how to contact DKTE College.",
+                "How can I get in touch with DKTE College?",
+                "I need to contact DKTE College. What are their contact details?"
+            ],
+            "responses": [
+                "Sure",
+                " here are the contact details for DKTE College: Address - D.K.T.E. Society's Textile & Engineering Institute",
+                " Rajwada",
+                " P.O.Box. No.130",
+                " Ichalkaranji-416 115",
+                " Dist: Kolhapur (Maharashtra)",
+                " India. Phone - (0230) 2421300",
+                " (0230) 2439557 / 58 / 59",
+                " (0230) 2432340. Email - dktestextile@gmail.com. Fax - (0230) 2432329. Toll-Free No - 1800 843 1300.",
+                "For contacting DKTE College",
+                " you can use the following details: Address - D.K.T.E. Society's Textile & Engineering Institute",
+                " Rajwada",
+                " P.O.Box. No.130",
+                " Ichalkaranji-416 115",
+                " Dist: Kolhapur (Maharashtra)",
+                " India. Phone - (0230) 2421300",
+                " (0230) 2439557 / 58 / 59",
+                " (0230) 2432340. Email - dktestextile@gmail.com. Fax - (0230) 2432329. Toll-Free No - 1800 843 1300.",
+                "To reach out to DKTE College",
+                " you can use the following contact details: Address - D.K.T.E. Society's Textile & Engineering Institute",
+                " Rajwada",
+                " P.O.Box. No.130",
+                " Ichalkaranji-416 115",
+                " Dist: Kolhapur (Maharashtra)",
+                " India. Phone - (0230) 2421300",
+                " (0230) 2439557 / 58 / 59",
+                " (0230) 2432340. Email - dktestextile@gmail.com. Fax - (0230) 2432329. Toll-Free No - 1800 843 1300."
+            ],
+            "context_set": null,
+            "id": 77
+        },
+        {
+            "tag": "dkte_placements",
+            "patterns": [
+                "Tell me about the placements at DKTE College.",
+                "How are the placements at DKTE College?",
+                "What is the placement scenario in DKTE College?"
+            ],
+            "responses": [
+                "DKTE College has a commendable placement track record",
+                " with a placement rate of approximately 85% for its students. According to the latest data available on the DKTE College website",
+                " 350 students were successfully placed.",
+                "The placement scenario at DKTE College is highly promising",
+                " and a significant number of students secure placements in leading companies every year. As per the information provided on the DKTE College website",
+                " 400 students have been placed in reputed organizations.",
+                "DKTE College is renowned for its successful placements",
+                " with over 85% of students securing jobs in well-established companies. The DKTE College website mentions that [placement_number] students have secured placements in various companies."
+            ],
+            "context_set": null,
+            "id": 78
+        },
+        {
+            "tag": "average_salary",
+            "patterns": [
+                "What is the average salary offered during placements at DKTE?",
+                "Tell me about the average placement salary at DKTE.",
+                "What is the typical salary package at DKTE placements?"
+            ],
+            "responses": [
+                "The average salary offered during placements at DKTE is competitive",
+                " reflecting the high-quality education and skills of its students. As per the latest data on the DKTE website",
+                " the average salary is 5 LPA.",
+                "DKTE students receive attractive salary packages during placements",
+                " with the average salary being impressive. According to the information provided on the DKTE website",
+                " the average placement salary is 5 LPA.",
+                "The average placement salary at DKTE is noteworthy",
+                " showcasing the success and demand for its graduates in the job market. As mentioned on the DKTE website",
+                " the average salary offered is  5 LPA."
+            ],
+            "context_set": null,
+            "id": 79
+        },
+        {
+            "tag": "top_recruiters_in_Computer_science",
+            "patterns": [
+                "Which companies are the top recruiters at DKTE?",
+                "Tell me about the major recruiters during DKTE placements.",
+                "Can you name some of the top companies hiring from DKTE?"
+            ],
+            "responses": [
+                "DKTE has a strong association with leading companies",
+                " and top recruiters during placements include well-known names such as E2open",
+                " infosys",
+                " [Company3]",
+                " and many more. According to the latest placement data on the DKTE website",
+                " these companies have hired a significant number of students.",
+                "Major recruiters at DKTE placements comprise renowned companies like Infosys",
+                " wipro",
+                " techmahindra",
+                " highlighting the institute's industry connections and credibility. The DKTE website provides detailed information about the number of students placed in each of these companies.",
+                "Companies like Infosys",
+                " wipro",
+                " techmahindra",
+                " among others",
+                " frequently hire from DKTE",
+                " underlining the institute's reputation for producing quality professionals. The latest placement statistics on the DKTE website reveal the number of students placed in these companies."
+            ],
+            "context_set": null,
+            "id": 80
+        },
+        {
+            "tag": "internship_opportunities",
+            "patterns": [
+                "Are there internship opportunities for DKTE students?",
+                "Tell me about the internship programs at DKTE.",
+                "Do DKTE students get opportunities for internships?"
+            ],
+            "responses": [
+                "DKTE provides valuable internship opportunities for its students",
+                " allowing them to gain practical experience in their respective fields. The institute facilitates internships with various companies",
+                " as mentioned on the DKTE website.",
+                "Internship programs are an integral part of the curriculum at DKTE",
+                " offering students the chance to apply their knowledge in real-world settings. Information available on the DKTE website highlights the numerous internship opportunities provided to students.",
+                "Yes",
+                " DKTE students have access to various internship opportunities",
+                " enhancing their skill set and preparing them for the professional world. The DKTE website details the internship programs available and the companies associated with providing internships to the students."
+            ],
+            "context_set": null,
+            "id": 81
+        },
+        {
+            "tag": "hod_cse_ai_ml",
+            "patterns": [
+                "HOD of CSE (AI & ML) Department",
+                "Head of Computer Science & Engineering Department specializing in AI & ML",
+                "Who is the HOD of CSE department focusing on AI & ML?"
+            ],
+            "responses": [
+                "Prof. (Dr.) S. K. Shirgave is the Head of Computer Science & Engineering Department specializing in AI & ML."
+            ],
+            "context_set": null,
+            "id": 82
+        },
+        {
+            "tag": "hod_project_consultancy",
+            "patterns": [
+                "HOD of Project & Consultancy Department",
+                "Head of Project & Consultancy Department",
+                "Who is the HOD of Project & Consultancy?"
+            ],
+            "responses": [
+                "Prof. (Dr.) D. V. Kodavade is the Head of Project & Consultancy Department."
+            ],
+            "context_set": null,
+            "id": 83
+        },
+        {
+            "tag": "hod_cse",
+            "patterns": [
+                "HOD of CSE Department",
+                "HOD of Computer Science Department",
+                "Who is the HOD of Computer Science Department?",
+                "Who is the HOD of CSE?"
+            ],
+            "responses": [
+                "Prof. (Dr.) D. V. Kodavade is the HOD of CSE Department."
+            ],
+            "context_set": null,
+            "id": 84
+        },
+        {
+            "tag": "mtech_admission_documents",
+            "patterns": [
+                "Documents required for M.Tech admission",
+                "List of documents for M.Tech admission",
+                "What are the required documents for M.Tech admission?"
+            ],
+            "responses": [
+                "The following documents are required for admission to the M.Tech course:\n1. Print out of Maharashtra M.Tech 2024 application form.\n2. Receipt of online payment of the application fees.\n3. Birth certificate/school leaving certificate/Passport \u00e2\u20ac\u201c to confirm the nationality of the candidate.\n4. HSC and SSC mark sheets.\n5. Degree qualifying examination (or equivalent) mark sheet.\n6. GATE 2024 Score Card (if applicable).\n7. Caste certificate (if applicable).\n8. Caste/Tribe validity certificate (if applicable).\n9. Income Certificate of Father",
+                " issued by Tahsildar for EBC",
+                " EWS",
+                " TFWS Candidates for Admission & Scholarship purpose.\n10. Economically Weaker Section (EWS) certificate is required by concerned Executive Megistratate.\n11. Non-Creamy Layer certificate (if applicable).\n12. Passport size photos (5).\n13. Gap Affidavit (If applicable)."
+            ],
+            "context_set": null,
+            "id": 85
+        },
+        {
+            "tag": "mtech_fee_structure",
+            "patterns": [
+                "Fee structure for M.Tech course",
+                "What are the fees for M.Tech?",
+                "M.Tech course fee details"
+            ],
+            "responses": [
+                "The provisional fee structure for the M.Tech course (may change) for the year 2023-2024 is as follows:\n\n- Open/Institute Level: \u00e2\u201a\u00b965",
+                "524\n- SC/ST: \u00e2\u201a\u00b96",
+                "524\n- OBC/EBC/EWS: \u00e2\u201a\u00b958",
+                "524\n- VJNT-SBC/TFWS: \u00e2\u201a\u00b958",
+                "524\n\nImportant Instruction:\n- All BC categories",
+                " EBC",
+                " EWS candidates should fill out the scholarship",
+                " freeship form after confirmation of Admission. Otherwise",
+                " these candidates have to pay full fees.\n- Parent annual income limit for scholarship",
+                " freeship",
+                " EBC",
+                " EWS is below Rs. 8 Lacs.\n- For admission in TFWS and EWS",
+                " parents' annual income limit should be below Rs. 8 Lacs."
+            ],
+            "context_set": null,
+            "id": 86
+        },
+        {
+            "tag": "ug_fee_structure",
+            "patterns": [
+                "Fee structure for UG or B.Tech courses",
+                "What are the fees for UG or B.Tech?",
+                "UG/B.Tech course fee details"
+            ],
+            "responses": [
+                "The provisional fee structure for undergraduate (UG) or B.Tech courses (may change) for the year 2023-2024 is as follows:\n\n- First Yr. Degree:\n  - Open/Institute Level: \u00e2\u201a\u00b9104",
+                "514\n  - SC/ST: \u00e2\u201a\u00b96",
+                "514\n  - OBC/EBC/EWS: \u00e2\u201a\u00b961",
+                "808\n  - VJNT-SBC/TFWS: \u00e2\u201a\u00b919",
+                "296\n- Direct Second Yr. Degree:\n  - Open/Institute Level: \u00e2\u201a\u00b9114",
+                "279\n  - SC/ST: \u00e2\u201a\u00b98",
+                "279\n  - OBC/EBC/EWS: \u00e2\u201a\u00b968",
+                "192\n  - VJNT-SBC/TFWS: \u00e2\u201a\u00b922",
+                "105\n- First Yr. Diploma:\n  - Open/Institute Level: \u00e2\u201a\u00b961",
+                "640\n  - SC/ST: \u00e2\u201a\u00b96",
+                "640\n  - OBC/EBC/EWS: \u00e2\u201a\u00b936",
+                "753\n  - VJNT-SBC/TFWS: \u00e2\u201a\u00b911",
+                "866\n- Direct Second Yr. Diploma:\n  - Open/Institute Level: \u00e2\u201a\u00b961",
+                "820\n  - SC/ST: \u00e2\u201a\u00b96",
+                "820\n  - OBC/EBC/EWS: \u00e2\u201a\u00b936",
+                "933\n  - VJNT-SBC/TFWS: \u00e2\u201a\u00b912",
+                "046\n\nImportant Instruction:\n- All BC categories",
+                " EBC",
+                " EWS candidates should fill out the scholarship",
+                " freeship form after confirmation of Admission. Otherwise",
+                " these candidates have to pay full fees.\n- Parent annual income limit for scholarship",
+                " freeship",
+                " EBC",
+                " EWS is below Rs. 8 Lacs.\n- For admission in TFWS and EWS",
+                " parents' annual income limit should be below Rs. 8 Lacs."
+            ],
+            "context_set": null,
+            "id": 87
+        },
+        {
+            "tag": "btech_admission_documents_open_category",
+            "patterns": [
+                "Documents required for B.Tech admission for open category",
+                "List of documents for B.Tech admission for open category students",
+                "What documents are needed for B.Tech admission for open category?"
+            ],
+            "responses": [
+                "For admission to First Year Degree Course for the academic year 2021-2022",
+                " the following documents are required for open category candidates:\n\n1. MHT-CET 2021 and JEE 2021 Score Card\n2. 10th & 12th Marksheet\n3. School Leaving Certificate (Last School Attended)\n4. Age",
+                " Nationality & Domicile Certificate\n5. Aadhar Card\n6. Income Certificate of Father",
+                " issued by Tahsildar. For the academic year 2020-2021 (EBC",
+                " EWS",
+                " TFWS Candidates for Admission & Scholarship purpose)\n7. Economically Weaker Section (EWS) certificate is required by concerned Executive Magistrate\n8. Birth Certificate (For OMS Candidates only)\n9. Passport size photos: 5\n10. Gap Affidavit (If applicable)"
+            ],
+            "context_set": null,
+            "id": 88
+        },
+        {
+            "tag": "btech_admission_documents_reserved_category",
+            "patterns": [
+                "Documents required for B.Tech admission for reserved category",
+                "List of documents for B.Tech admission for reserved category students",
+                "What documents are needed for B.Tech admission for reserved category?"
+            ],
+            "responses": [
+                "For admission to First Year Degree Course for the academic year 2021-2022",
+                " the following documents are required for reserved category (SC/ST/OBC/EWS) students:\n\n1. MHT-CET 2021 and JEE 2021 Score Card\n2. 10th & 12th Marksheet\n3. School Leaving Certificate (Last School Attended)\n4. Age",
+                " Nationality & Domicile Certificate\n5. Aadhar Card\n6. Caste Certificate\n7. Caste Validity Certificate\n8. Non-Creamy Layer Certificate Valid up to 31st March 2022 (Except SC & ST Category)\n9. Income Certificate of Father",
+                " issued by Tahsildar. For the academic year 2020-2021 (TFWS Candidates for Admission & Scholarship purpose)\n10. Passport size photos: 5\n11. Gap Affidavit (If applicable)"
+            ],
+            "context_set": null,
+            "id": 89
+        },
+        {
+            "tag": "ug_selection_process",
+            "patterns": [
+                "What is the selection process for B.Tech admissions?",
+                "How are candidates chosen for undergraduate courses?",
+                "What steps are involved in the selection of B.Tech candidates?",
+                "Explain the procedure for selecting students for engineering courses."
+            ],
+            "responses": [
+                "The selection process for B.Tech admissions includes counselling and seat allotment based on candidates' preferences and ranks. Admissions are made through Central Allotment Process (CAP) conducted by the Government of Maharashtra."
+            ],
+            "context_set": null,
+            "id": 90
+        },
+        {
+            "tag": "ug_eligibility_criteria",
+            "patterns": [
+                "What are the eligibility requirements for B.Tech admission?",
+                "Can you list the qualifications needed for undergraduate courses?",
+                "What is the eligibility criteria for engineering admissions?",
+                "What are the minimum qualifications for applying to B.Tech programs?"
+            ],
+            "responses": [
+                "To be eligible for B.Tech admission",
+                " candidates must have passed HSC examination with English",
+                " Physics",
+                " and Mathematics as compulsory subjects and secured at least 45% marks (40% for BC candidates). They must also obtain a qualifying score in MHT-CET or JEE (Main) Paper I."
+            ],
+            "context_set": null,
+            "id": 91
+        },
+        {
+            "tag": "ug_seat_allotment",
+            "patterns": [
+                "How are seats allotted for B.Tech courses?",
+                "What factors determine the allocation of seats in undergraduate programs?",
+                "Can you explain how the seat allotment process works?",
+                "How is the seat distribution done for engineering admissions?"
+            ],
+            "responses": [
+                "Seats for B.Tech courses are allotted based on candidates' preferences filled during counselling and their ranks in entrance exams. Central Allotment Process (CAP) is conducted to allocate seats."
+            ],
+            "context_set": null,
+            "id": 92
+        },
+        {
+            "tag": "ug_institute_quota",
+            "patterns": [
+                "What is the institute-level quota for B.Tech admissions?",
+                "How many seats are reserved for the institute-level quota?",
+                "Can you provide details about the reserved seats in undergraduate programs?",
+                "What percentage of seats are allocated under the institute quota?"
+            ],
+            "responses": [
+                "20% of seats are reserved for the institute-level quota in B.Tech admissions. These seats are filled through a separate admission process."
+            ],
+            "context_set": null,
+            "id": 93
+        },
+        {
+            "tag": "electronics_mtech_intake",
+            "patterns": [
+                "What is the intake capacity for M.Tech in Electronics & Telecommunication Engineering?",
+                "How many students are accepted into the M.Tech program for Electronics & Telecommunication Engineering?",
+                "What is the admission capacity for M.Tech in Electronics & Telecommunication Engineering?",
+                "Could you tell me the number of seats available for M.Tech in Electronics & Telecommunication Engineering?",
+                "What is the maximum number of students admitted to the M.Tech course in Electronics & Telecommunication Engineering?",
+                "What is the quota for M.Tech admissions in Electronics & Telecommunication Engineering?",
+                "How many spots are open for the M.Tech program in Electronics & Telecommunication Engineering?"
+            ],
+            "responses": [
+                "The intake capacity for M.Tech in Electronics & Telecommunication Engineering is 12 students."
+            ],
+            "context_set": null,
+            "id": 94
+        },
+        {
+            "tag": "electronics_mtech_starting_year",
+            "patterns": [
+                "When did the M.Tech program in Electronics & Telecommunication Engineering start?"
+            ],
+            "responses": [
+                "The M.Tech program in Electronics & Telecommunication Engineering started in 2010."
+            ],
+            "context_set": null,
+            "id": 95
+        },
+        {
+            "tag": "textile_mtech_intake",
+            "patterns": [
+                "What is the intake capacity for M.Tech in Textile Engineering?"
+            ],
+            "responses": [
+                "The intake capacity for M.Tech in Textile Engineering is 12 students."
+            ],
+            "context_set": null,
+            "id": 96
+        },
+        {
+            "tag": "textile_mtech_starting_year",
+            "patterns": [
+                "When did the M.Tech program in Textile Engineering start?"
+            ],
+            "responses": [
+                "The M.Tech program in Textile Engineering started in 1997."
+            ],
+            "context_set": null,
+            "id": 97
+        },
+        {
+            "tag": "girls_hostel",
+            "patterns": [
+                "What is the intake for girls hostel?",
+                "How many girls can the hostel accommodate?",
+                "Girls hostel intake",
+                "Girls hostel capacity",
+                "Girls hostel accommodation"
+            ],
+            "responses": [
+                "The girls hostel can accommodate a total of 250 students.",
+                "Our hostel has a capacity to accommodate 250 female students.",
+                "The intake for girls hostel varies but currently",
+                " it can accommodate up to 250 students."
+            ],
+            "context_set": null,
+            "id": 98
+        },
+        {
+            "tag": "girls_hostel_floor",
+            "patterns": [
+                "Which floor is the girls hostel on?",
+                "Girls hostel location",
+                "Where is the girls hostel located?",
+                "Girls hostel floor",
+                "Floor of girls hostel"
+            ],
+            "responses": [
+                "The girls hostel is located on first",
+                " second and third floors of the accommodation building.",
+                "The girls hostel is situated on the first",
+                " second and third floors of the campus accommodation area.",
+                "Girls hostel facilities are available on first",
+                " second and third floor of the accommodation building."
+            ],
+            "context_set": null,
+            "id": 99
+        },
+        {
+            "tag": "girls_hostel_coordinator",
+            "patterns": [
+                "Who is the coordinator of the girls hostel?",
+                "Girls hostel warden",
+                "Girls hostel in-charge",
+                "Girls hostel manager",
+                "Coordinator of girls hostel"
+            ],
+            "responses": [
+                "The coordinator of the girls hostel is Mrs D.M.Kulakarni",
+                " Mrs D.M.Kulakarni is the coordinator in charge of the girls hostel.",
+                "For any queries related to the girls hostel",
+                " you can contact Mrs D.M.Kulakarni",
+                " the hostel coordinator."
+            ],
+            "context_set": null,
+            "id": 100
+        },
+        {
+            "tag": "girls_hostel_representative",
+            "patterns": [
+                "Who is the girls hostel representative?",
+                "Girls hostel representative contact",
+                "Contact person for girls hostel",
+                "Girls hostel representative details",
+                "Girls hostel rep"
+            ],
+            "responses": [
+                "The girls hostel representative is Vaishnavi Patil . .",
+                "For any concerns or issues regarding the girls hostel",
+                " you can contact our hostel representative",
+                "Vaishnavi Patil",
+                " at girls hostel.",
+                "If you need assistance regarding the girls hostel",
+                " feel free to contact our hostel representative",
+                " Vaishnavi Patil",
+                " at girls hostel."
+            ],
+            "context_set": null,
+            "id": 101
+        },
+        {
+            "tag": "hostel_helpline",
+            "patterns": [
+                "Hostel helpline",
+                "Emergency contact for hostel",
+                "Hostel contact numbers",
+                "Emergency helpline for residents",
+                "Hostel helpline numbers"
+            ],
+            "responses": [
+                "For any emergency situations in the hostel",
+                " you can use the following contact numbers :Emergency Helpline Contact Numbers: Gaon Bhag Police Station - 9527985100",
+                " Police Inspector Gaon Bhag - 0230-2420350",
+                " Police Control Room - 1091-9405350133",
+                " Fire Brigade - 101",
+                " Help Line for Woman - 1091-9405350133",
+                " Ambulance Seva Bharati - 9890873102",
+                " Ambulance Chhaya Corner - 9823182288",
+                " Hospital-Seva Bharati - 0230-2426171",
+                " Hospital-Niramaya - 0230-2437517-19",
+                " Hospital-Niramaya - 0230-2437517",
+                " L.G.M - 0230-2420312",
+                " Dr. S. G. KUMBHAR - 9028327305   ",
+                "Here are the emergency contact numbers for the hostel residents: Emergency Helpline Contact Numbers: Gaon Bhag Police Station - 9527985100",
+                " Police Inspector Gaon Bhag - 0230-2420350",
+                " Police Control Room - 1091-9405350133",
+                " Fire Brigade - 101",
+                " Help Line for Woman - 1091-9405350133",
+                " Ambulance Seva Bharati - 9890873102",
+                " Ambulance Chhaya Corner - 9823182288",
+                " Hospital-Seva Bharati - 0230-2426171",
+                " Hospital-Niramaya - 0230-2437517-19",
+                " Hospital-Niramaya - 0230-2437517",
+                " L.G.M - 0230-2420312",
+                " Dr. S. G. KUMBHAR - 9028327305 ",
+                "In case of any emergency in the hostel",
+                " please refer to the following helpline contact numbers: Emergency Helpline Contact Numbers: Gaon Bhag Police Station - 9527985100",
+                " Police Inspector Gaon Bhag - 0230-2420350",
+                " Police Control Room - 1091-9405350133",
+                " Fire Brigade - 101",
+                " Help Line for Woman - 1091-9405350133",
+                " Ambulance Seva Bharati - 9890873102",
+                " Ambulance Chhaya Corner - 9823182288",
+                " Hospital-Seva Bharati - 0230-2426171",
+                " Hospital-Niramaya - 0230-2437517-19",
+                " Hospital-Niramaya - 0230-2437517",
+                " L.G.M - 0230-2420312",
+                " Dr. S. G. KUMBHAR - 9028327305  "
+            ],
+            "context_set": null,
+            "id": 102
+        },
+        {
+            "tag": "hostel_healthcare_committee",
+            "patterns": [
+                "Hostel healthcare committee",
+                "Healthcare committee in hostel",
+                "Who is in charge of healthcare in the hostel?",
+                "Contact for hostel healthcare committee",
+                "Healthcare committee members"
+            ],
+            "responses": [
+                "The hostel healthcare committee is responsible for ensuring the well-being of residents. The committee members include Prof.(Dr) V. D. Shinde (Mechanical",
+                " Chairman",
+                " 9422590926)",
+                " Mrs. D. M. Kulkarni (Information Tech/CSE.",
+                " Member",
+                " 9822450758 8329631987)",
+                " Mrs. A. D. Kadage (E&TC",
+                " Member",
+                " 9011395972)",
+                " Mrs. V. S. Gurav (MBA",
+                " Member",
+                " 9404065836)",
+                " Mrs. J. A. Alase (Textiles",
+                " Member",
+                " 9890770662 8329352724)",
+                " Mr. P. M. Gavali (CSE",
+                " Member",
+                " 7058408299)",
+                " Dr. R. D. Naiknaware (Physical Director",
+                " Member",
+                " 9822766588)",
+                " and Mr. J. B. Molake (Clerk",
+                " Member",
+                " 7774013699).",
+                "Our hostel healthcare committee comprises dedicated members who oversee the health-related matters of the residents. You can contact them for any healthcare concerns. Prof.(Dr) V. D. Shinde (Mechanical",
+                " Chairman",
+                " 9422590926)",
+                " Mrs. D. M. Kulkarni (Information Tech/CSE.",
+                " Member",
+                " 9822450758 8329631987)",
+                " Mrs. A. D. Kadage (E&TC",
+                " Member",
+                " 9011395972)",
+                " Mrs. V. S. Gurav (MBA",
+                " Member",
+                " 9404065836)",
+                " Mrs. J. A. Alase (Textiles",
+                " Member",
+                " 9890770662 8329352724)",
+                " Mr. P. M. Gavali (CSE",
+                " Member",
+                " 7058408299)",
+                " Dr. R. D. Naiknaware (Physical Director",
+                " Member",
+                " 9822766588)",
+                " and Mr. J. B. Molake (Clerk",
+                " Member",
+                " 7774013699) are some of the committee members.",
+                "For any healthcare concerns or inquiries",
+                " you can reach out to the hostel healthcare committee. Prof.(Dr) V. D. Shinde (Mechanical",
+                " Chairman",
+                " 9422590926)",
+                " Mrs. D. M. Kulkarni (Information Tech/CSE.",
+                " Member",
+                " 9822450758 8329631987)",
+                " Mrs. A. D. Kadage (E&TC",
+                " Member",
+                " 9011395972)",
+                " Mrs. V. S. Gurav (MBA",
+                " Member",
+                " 9404065836)",
+                " Mrs. J. A. Alase (Textiles",
+                " Member",
+                " 9890770662 8329352724)",
+                " Mr. P. M. Gavali (CSE",
+                " Member",
+                " 7058408299)",
+                " Dr. R. D. Naiknaware (Physical Director",
+                " Member",
+                " 9822766588)",
+                " and Mr. J. B. Molake (Clerk",
+                " Member",
+                " 7774013699) are available to assist you."
+            ],
+            "context_set": null,
+            "id": 103
+        },
+        {
+            "tag": "girls_hostel_gym",
+            "patterns": [
+                "Girls hostel gym",
+                "Gym facilities in girls hostel",
+                "Is there a gym in the girls hostel?",
+                "Where is the girls hostel gym located?",
+                "Can girls use the gym in the hostel?"
+            ],
+            "responses": [
+                "Yes",
+                " there is a gym available in the DKTE girls hostel.",
+                "The girls hostel is equipped with a gym facility for residents.",
+                "The gym in the girls hostel is located near college canteen.",
+                "Girls residing in the hostel have access to the gym facilities.",
+                "For information about gym timings and rules",
+                " please contact the hostel Representative(Vaishnavi Patil=7666544285) ."
+            ],
+            "context_set": null,
+            "id": 104
+        },
+        {
+            "tag": "Girls_hostel_department",
+            "patterns": [
+                "Hostel departments",
+                "Who are the staff members in the hostel?",
+                "Staff contact numbers in hostel",
+                "Hostel support staff",
+                "Contact details for hostel departments"
+            ],
+            "responses": [
+                "The hostel is managed by various departments to ensure smooth functioning. The departments include Security Department and Housekeeping Department. The staff members and their contact numbers are as follows: Smt Mane Kalpana (Security Guard",
+                " 9075744046)",
+                " Smt. Tanange Savitri (Security Guard",
+                " 9699245189)",
+                " Mr.Deomore Ashok (Security Guard",
+                " 9301717513)",
+                " Sau.Urmila Salunkhe (Sweeper",
+                " 7083235982)",
+                " Smt.Shobha Pujari (Sweeper",
+                " 7083865303)",
+                " Sou. Rajashree Chavan (Sweeper",
+                " 7517557477)",
+                " and Sou Saraswati Adendra (Wt. Sweeper",
+                " 7420915158)."
+            ],
+            "context_set": null,
+            "id": 105
+        },
+        {
+            "tag": "Girls_hostel_warden",
+            "patterns": [
+                "Girls Hostel warden",
+                "Who is the warden of the Girls hostel?",
+                "Contact details for hostel warden",
+                "How to reach the hostel warden?",
+                "Warden of girls hostel"
+            ],
+            "responses": [
+                "The warden of the girls hostel is responsible for overseeing the welfare of the residents.",
+                "You can contact the hostel warden(Mrs.Rajput) for any concerns or assistance related to hostel life.",
+                "For inquiries or assistance",
+                " please contact the hostel warden(Mrs.Rajput) at Girls Hostel.",
+                "The hostel warden(Mrs.Rajput) plays a crucial role in ensuring a safe and supportive environment for the residents."
+            ],
+            "context_set": null,
+            "id": 106
+        },
+        {
+            "tag": "girls_hostel_rules",
+            "patterns": [
+                "Hostel rules and regulations",
+                "What are the rules of the girls hostel?",
+                "Can you explain the hostel regulations?",
+                "Do's and Don'ts in the hostel",
+                "Curfew timings in the girls hostel"
+            ],
+            "responses": [
+                "The rules and regulations of the girls hostel are designed to ensure a safe and harmonious living environment for all residents.",
+                "In the hostel",
+                " residents are expected to adhere to regulations regarding curfew timings",
+                " visitor policies",
+                " noise levels",
+                " and cleanliness.",
+                "Some of the hostel rules include maintaining cleanliness in common areas",
+                " respecting quiet hours",
+                " and adhering to the designated cur"
+            ],
+            "context_set": null,
+            "id": 107
+        },
+        {
+            "tag": "life_at_dkte",
+            "patterns": [
+                "How is life at DKTE?",
+                "Can you tell me about life at DKTE?",
+                "What is it like to study at DKTE?",
+                "Describe the experience of studying at DKTE"
+            ],
+            "responses": [
+                "Life at DKTE is vibrant and enriching. Students experience a blend of academic rigor",
+                " extracurricular activities",
+                " and cultural events.",
+                "Studying at DKTE offers a unique experience with a focus on academic excellence",
+                " industry exposure",
+                " and overall personality development.",
+                "DKTE provides a dynamic environment for learning and growth",
+                " with opportunities for hands-on experience",
+                " industry interactions",
+                " and personal development.",
+                "At DKTE",
+                " students enjoy a lively campus atmosphere",
+                " engaging in academics",
+                " sports",
+                " cultural activities",
+                " and various student clubs and organizations."
+            ],
+            "context_set": null,
+            "id": 108
+        },
+        {
+            "tag": "student_life",
+            "patterns": [
+                "How is student life at DKTE?",
+                "Can you describe student life at DKTE?",
+                "What are the activities available for students at DKTE?",
+                "Tell me about the social scene at DKTE"
+            ],
+            "responses": [
+                "Student life at DKTE is dynamic and fulfilling",
+                " with opportunities for academic pursuits",
+                " extracurricular activities",
+                " and social interactions."
+            ],
+            "context_set": null,
+            "id": 109
+        },
+        {
+            "tag": "placement_cse",
+            "patterns": [
+                "How is placement in cse department ?",
+                "how is placement in computer science department"
+            ],
+            "responses": [
+                "placement is good in cse"
+            ],
+            "context_set": null,
+            "id": 110
+        },
+        {
+            "tag": "placement_in_CSE",
+            "patterns": [
+                "How is placement in the CSE department at DKTE College?",
+                "What is the placement scenario like for CSE students at DKTE College?",
+                "Can you provide information about placements for CSE students at DKTE College?",
+                "How are the placements for computer science students at DKTE College?"
+            ],
+            "responses": [
+                "The placement scenario for the CSE department at DKTE College is excellent. With a high placement rate and attractive salary packages",
+                " students have ample opportunities in top companies like Infosys",
+                " Tech Mahindra",
+                " Wipro",
+                " and E2Open. Additionally",
+                " students often receive pre-placement offers (PPOs) from various companies during internships."
+            ],
+            "context_set": null,
+            "id": 111
+        },
+        {
+            "tag": "placement_in_AIML",
+            "patterns": [
+                "How is placement in the AIML department at DKTE College?",
+                "What is the placement scenario like for AIML students at DKTE College?",
+                "Can you provide information about placements for AIML students at DKTE College?",
+                "How are the placements for artificial intelligence and machine learning students at DKTE College?"
+            ],
+            "responses": [
+                "The placement scenario for the AIML department at DKTE College is outstanding. With a high placement rate and lucrative salary packages",
+                " students have numerous opportunities in top AI companies like IBM Watson",
+                " Google AI",
+                " Microsoft Research",
+                " and NVIDIA. Moreover",
+                " students often receive pre-placement offers (PPOs) from various AI companies during internships."
+            ],
+            "context_set": null,
+            "id": 112
+        },
+        {
+            "tag": "placement_in_Textile",
+            "patterns": [
+                "How is placement in the Textile department at DKTE College?",
+                "What is the placement scenario like for Textile students at DKTE College?",
+                "Can you provide information about placements for Textile students at DKTE College?",
+                "How are the placements for Textile engineering students at DKTE College?"
+            ],
+            "responses": [
+                "The placement scenario for the Textile department at DKTE College is remarkable. With a high placement rate and attractive salary packages",
+                " students have ample opportunities in top textile companies like Raymond",
+                " Arvind Limited",
+                " Welspun",
+                " and Bombay Dyeing. Additionally",
+                " students often receive pre-placement offers (PPOs) from various textile companies during internships."
+            ],
+            "context_set": null,
+            "id": 113
+        },
+        {
+            "tag": "placement_in_ENTC",
+            "patterns": [
+                "How is placement in the ENTC department ?",
+                "How is placement in the ENTC ?",
+                "How is placement in the ENTC department at DKTE College?",
+                "What is the placement scenario like for ENTC students at DKTE College?",
+                "Can you provide information about placements for ENTC students at DKTE College?",
+                "How are the placements for electronics and telecommunication students at DKTE College?"
+            ],
+            "responses": [
+                "The placement scenario for the ENTC department at DKTE College is impressive. With a high placement rate and competitive salary packages",
+                " students have numerous opportunities in top companies like Ericsson",
+                " Siemens",
+                " Cisco",
+                " and Intel. Moreover",
+                " students often receive pre-placement offers (PPOs) from various companies during internships."
+            ],
+            "context_set": null,
+            "id": 114
+        },
+        {
+            "tag": "placement_in_Electrical",
+            "patterns": [
+                "How is placement in the Electrical department at DKTE College?",
+                "What is the placement scenario like for Electrical students at DKTE College?",
+                "Can you provide information about placements for Electrical students at DKTE College?",
+                "How are the placements for Electrical engineering students at DKTE College?"
+            ],
+            "responses": [
+                "The placement scenario for the Electrical department at DKTE College is commendable. With a high placement rate and attractive salary packages",
+                " students have ample opportunities in top companies like ABB",
+                " Siemens",
+                " GE",
+                " and Schneider Electric. Additionally",
+                " students often receive pre-placement offers (PPOs) from various companies during internships."
+            ],
+            "context_set": null,
+            "id": 115
+        },
+        {
+            "tag": "placement_in_Mechanical",
+            "patterns": [
+                "How is placement in the Mechanical department at DKTE College?",
+                "What is the placement scenario like for Mechanical students at DKTE College?",
+                "Can you provide information about placements for Mechanical students at DKTE College?",
+                "How are the placements for Mechanical engineering students at DKTE College?"
+            ],
+            "responses": [
+                "The placement scenario for the Mechanical department at DKTE College is excellent. With a high placement rate and lucrative salary packages",
+                " students have numerous opportunities in top companies like Tata Motors",
+                " Mahindra & Mahindra",
+                " BHEL",
+                " and Larsen & Toubro. Moreover",
+                " students often receive pre-placement offers (PPOs) from various companies during internships."
+            ],
+            "context_set": null,
+            "id": 116
+        },
+        {
+            "tag": "placement_in_Civil",
+            "patterns": [
+                "How is placement in the Civil department at DKTE College?",
+                "What is the placement scenario like for Civil students at DKTE College?",
+                "Can you provide information about placements for Civil students at DKTE College?",
+                "How are the placements for Civil engineering students at DKTE College?"
+            ],
+            "responses": [
+                "The placement scenario for the Civil department at DKTE College is commendable. With a high placement rate and attractive salary packages",
+                " students have ample opportunities in top companies like Larsen & Toubro (L&T)",
+                " Tata Projects",
+                " Hindustan Construction Company (HCC)",
+                " and Shapoorji Pallonji Group. Additionally",
+                " students often receive pre-placement offers (PPOs) from various companies during internships."
+            ],
+            "context_set": null,
+            "id": 117
+        },
+        {
+            "tag": "placement_companies_for_AIML",
+            "patterns": [
+                "Which companies come for placement at DKTE College for AI?",
+                "Which companies come for placement at DKTE College for artificial intelligence and machine learning?",
+                "Which companies come for placement at DKTE College for AIML?",
+                "Which companies come for placement at DKTE College for AIML department?",
+                "Tell me about the names of AI companies that visit DKTE College for placements in the AIML department.",
+                "Tell me about the names of AI companies that visit DKTE College for placements in the AI .",
+                "List the names of AI companies associated with DKTE College placements for AIML department."
+            ],
+            "responses": [
+                "DKTE College boasts a remarkable 100% placement rate in the AIML course for the last  year. The highest package offered in campus recruitment is INR 18 lacs per annum",
+                " whereas the average package is INR 3.5 lacs per annum. In campus recruitment",
+                " students get placed in names of AI companies like IBM Watson",
+                " Google AI",
+                " Microsoft Research",
+                " and NVIDIA. Students also have opportunities to secure pre-placement offers (PPOs) from various AI companies for internships and placements in their 3rd year."
+            ],
+            "context_set": null,
+            "id": 118
+        },
+        {
+            "tag": "placement_companies_for_Civil",
+            "patterns": [
+                "Which companies come for placement at DKTE College for civil?",
+                "Which companies come for placement at DKTE College for civil ?",
+                "Which companies come for placement at DKTE College for civil department?",
+                "Tell me about the companies that visit DKTE College for placements FOR civil department.",
+                "List the companies associated with DKTE College placements for civil department."
+            ],
+            "responses": [
+                "For the civil engineering department",
+                " the highest package offered was 5 LPA by Paranjpe Construction",
+                " and the lowest was 2.8 LPA. Despite fewer recruiting companies",
+                " top companies like Paranjpe Construction showed interest. Overall",
+                " only 81% of students from the department were placed. Some other notable civil companies include Blue Star  Constructions",
+                "  Gammon Engineers",
+                " and Shobha developers."
+            ],
+            "context_set": null,
+            "id": 119
+        },
+        {
+            "tag": "placement_companies_for_textile",
+            "patterns": [
+                "Which companies come for placement at DKTE College for textile engineering?",
+                "Which companies come for placement at DKTE College for textile?",
+                "Which companies come for placement at DKTE College for textile department?",
+                "Tell me about the companies that visit DKTE College for placements for textile department.",
+                "List the companies associated with DKTE College placements for textile department."
+            ],
+            "responses": [
+                "The placement rate of for Textile in DKTE College stands between 80-90%",
+                " with the highest package being 18 LPA",
+                " the lowest at 3 LPA",
+                " and the average package at 3.5 LPA. Notable companies such as Trident Group",
+                " Raymond",
+                " Sitaram's",
+                " Aditya Birla",
+                " and Shahi Export are among the top recruiters. All students secure internships in reputable companies",
+                " primarily in roles like Production Supervisors and Quality Assurance."
+            ],
+            "context_set": null,
+            "id": 120
+        },
+        {
+            "tag": "establishment_year",
+            "patterns": [
+                "When was DKTE College founded?",
+                "Can you tell me the year DKTE College was established?",
+                "What is the establishment year of DKTE College?",
+                "When did DKTE College start?"
+            ],
+            "responses": [
+                "DKTE College",
+                " also known as D.K.T.E. Society's Textile & Engineering Institute",
+                " was established in the year 1982. It has since been a leading institution in providing quality education in the field of textile and engineering."
+            ],
+            "context_set": null,
+            "id": 121
+        },
+        {
+            "tag": "college_placement_percentage",
+            "patterns": [
+                "What is the placement percentage at DKTE College?",
+                "Tell me about the percentage of students placed at DKTE College.",
+                "How many students get placed on average at DKTE College?",
+                "Can you provide information about the placement success rate at DKTE College?"
+            ],
+            "responses": [
+                "The placement percentage at DKTE College is approximately 85%.",
+                "On average",
+                " about 85% of students at DKTE College secure placements.",
+                "DKTE College boasts a high placement success rate of around 85%."
+            ],
+            "context_set": null,
+            "id": 122
+        },
+        {
+            "tag": "samp3p",
+            "patterns": [
+                "p3"
+            ],
+            "responses": [
+                "p3"
+            ],
+            "context_set": "",
+            "id": 123
+        },
+        {
+            "tag": "samp3p",
+            "patterns": [
+                "p4"
+            ],
+            "responses": [
+                "p4"
+            ],
+            "context_set": "",
+            "id": 124
+        },
+        {
+            "tag": "clg_info",
+            "patterns": [
+                "p1",
+                "p2",
+                "p3"
+            ],
+            "responses": [
+                "r1",
+                "r1"
+            ],
+            "context_set": "",
+            "id": 125
+        },
+        {
+            "tag": "india",
+            "patterns": [
+                "how is india",
+                " india is how "
+            ],
+            "responses": [
+                "india is good "
+            ],
+            "context_set": "",
+            "id": 126
+        }
+    ]
+}

@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <style>
+      body {
+        font-family: "Arial", sans-serif;
+        background-color: #f4f4f4;
+        margin: 0;
+        padding: 0;
+      }
+      .intent-form-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        min-height: 100vh;
+      }
+      .intent-form {
+        background: #ffffff;
+        border-radius: 8px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        padding: 20px;
+        margin: 20px;
+        width: 300px;
+      }
+      h1 {
+        color: #333;
+        font-size: 24px;
+        margin-bottom: 20px;
+      }
+      input[type="text"],
+      textarea {
+        border: 1px solid #ddd;
+        border-radius: 4px;
+        margin-bottom: 15px;
+        padding: 10px;
+        width: 92%;
+        box-sizing: border-box;
+      }
+      input[type="submit"] {
+        background: linear-gradient(45deg, #6dd5ed, #2193b0);
+        border: none;
+        border-radius: 4px;
+        color: white;
+        padding: 10px;
+        text-transform: uppercase;
+        transition: background 0.3s ease;
+        cursor: pointer;
+        width: 100%;
+      }
+      input[type="submit"]:hover {
+        background: linear-gradient(45deg, #2193b0, #6dd5ed);
+      }
+      #training-status {
+        color: #2193b0;
+        font-size: 18px;
+        margin-top: 20px;
+        text-align: center;
+      }
+      button {
+        background: linear-gradient(45deg, #6dd5ed, #2193b0);
+        border: none;
+        border-radius: 4px;
+        color: white;
+        padding: 10px 20px;
+        text-transform: uppercase;
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+        cursor: pointer;
+        margin: 10px;
+        font-weight: bold;
+      }
+      button:hover {
+        transform: translateY(-2px);
+        box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+      }
+      button:active {
+        transform: translateY(0);
+        box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+      }
+    </style>
+    <title>Intent Input Form</title>
+  </head>
+  <body>
+    <div>
+      <div id="training-status"></div>
+    </div>
+    <div>
+      <button id="fetch-data-btn">Fetch new Intents data</button>
+      <button id="retrain-model-btn">Retrain the Model</button>
+      <button id="display-feedback-btn">View all Feedbacks</button>
+    </div>
+    <div class="intent-form-container">
+      <h1>Add Intent</h1>
+      <div class="form-wrapper">
+        <form
+          class="intent-form"
+          action="/add-intent"
+          method="POST"
+          onsubmit="return submitMsg()"
+        >
+          <input type="text" name="tag" placeholder="Tag" required />
+          <textarea
+            name="patterns"
+            placeholder="Patterns (comma-separated)"
+            required
+          ></textarea>
+          <textarea
+            name="responses"
+            placeholder="Responses (comma-separated)"
+            required
+          ></textarea>
+          <input
+            type="text"
+            name="context_set"
+            placeholder="Context Set (optional)"
+          />
+          <input type="submit" value="Submit" />
+        </form>
+      </div>
+    </div>
+    <script>
+      function submitMsg() {
+        alert("New Intent added ");
+        return true;
+      }
+
+      document
+        .getElementById("fetch-data-btn")
+        .addEventListener("click", function () {
+          fetch("/fetch-intents")
+            .then((response) => response.json())
+            .then((data) => {
+              alert(data.message);
+            })
+            .catch((error) => console.error("Error:", error));
+        });
+
+      document
+        .getElementById("retrain-model-btn")
+        .addEventListener("click", function () {
+          document.getElementById("training-status").innerText =
+            "Training in progress...";
+
+          fetch("/retrain-model", { method: "POST" })
+            .then((response) => response.json())
+            .then((data) => {
+              document.getElementById("training-status").innerText =
+                data.message;
+            })
+            .catch((error) => {
+              console.error("Error:", error);
+              document.getElementById("training-status").innerText =
+                "Error occurred during training.";
+            });
+        });
+      document
+        .getElementById("display-feedback-btn")
+        .addEventListener("click", function () {
+          window.location.href = "/view-feedback";
+        });
+    </script>
+  </body>
+</html>
